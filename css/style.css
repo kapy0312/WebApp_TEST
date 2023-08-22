@@ -295,7 +295,14 @@ a:focus {
   text-transform: uppercase;
   font-weight: bold;
   color: #8547ca;
-  font-size: 5.5rem;
+  font-size: 4.0rem;
+}
+
+.slider_section .detail-box h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #8547ca;
+  font-size: 3.5rem;
 }
 
 .slider_section .detail-box a {
@@ -370,12 +377,12 @@ a:focus {
 }
 
 .feature_section {
-  background-color: #fafafa;
+  background-color: #ECECFF;
   font-family: 'Poppins', sans-serif;
 }
 
 .feature_section .box {
-  background-color: #fcfcfd;
+  background-color: #ECECFF;
   padding: 15px;
   margin: 45px 0;
 }
@@ -397,6 +404,16 @@ a:focus {
   width: 50px;
   height: auto;
   fill: #8547ca;
+}
+.feature_section .box h2 {
+  font-family:'Microsoft JhengHei';
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.feature_section .box h5 {
+  font-family:'Microsoft JhengHei';
+  font-size: 22px;
 }
 
 .feature_section .box .head-box h6 {
@@ -536,7 +553,7 @@ a:focus {
 }
 
 .about_section {
-  background-image: url(../images/about-bg.jpg);
+  background-image: url(../images/about-bg.png);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -669,6 +686,7 @@ a:focus {
 /* contact section */
 .contact_section {
   background-color: #f2f7fd;
+  /* background-color:#DCB5FF; */
 }
 
 .contact_section h2 {
@@ -744,6 +762,12 @@ a:focus {
   background-color: #363636;
   color: #ffffff;
   font-family: 'Poppins', sans-serif;
+}
+
+.info_section h4 {
+  font-weight: bold;
+  margin-bottom: 12px;
+  font-size: 30px;
 }
 
 .info_section h5 {
@@ -856,3 +880,78 @@ a:focus {
   color: #fefdfc;
 }
 /*# sourceMappingURL=style.css.map */
+
+/* Reset some default styles */
+body, h1, h2, p, img {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+/* Styling for header */
+.header {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.header-title {
+  font-size: 2rem;
+}
+
+/* Styling for content section */
+.content {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+/* Styling for individual blocks */
+.block {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.block-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.block-text {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+.block-image {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for button */
+.btn {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.btn:hover {
+  background-color: #0056b3;
+}
